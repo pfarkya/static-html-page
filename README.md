@@ -1,2 +1,2 @@
 # static-html-page
-# my Frist git repository Project
+# My First Gits Repository Project
