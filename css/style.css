@@ -1,9 +1,12 @@
-body>div {
-	width:80%;
+div {
+	width:100%;
 	margin:auto;
 	padding-left: 5px;
 }
 
+/*********************
+*heading
+**********************/
 .heading{
 	background-repeat: no-repeat;
     height: 45px;
@@ -12,6 +15,52 @@ body>div {
 
 }
 
-.blockcontent{
-	border: white solid;
+/*****************
+*outer contents block
+******************/
+cont{
+	display:block;
+	margin: 5px;
+    padding: 5px;
+}
+
+/******************
+* for block content
+*******************/
+cont.blockcontent{
+	border: black solid;
+	border-radius: 25px;
+	overflow: auto;
+}
+
+/***********************
+*For Page Background
+************************/
+
+
+pageback{
+	display:block;
+	margin:auto;
+	padding:10px;
+	width:90%;
+	height: 100%;
+	/*background: red; /* For browsers that do not support gradients */
+    /*background: -webkit-linear-gradient(red, yellow); /* For Safari 5.1 to 6.0 */
+    /*background: -o-linear-gradient(red, yellow); /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(red, yellow); /* For Firefox 3.6 to 15 */
+    /*background: linear-gradient(red, yellow); /* Standard syntax (must be last) */
+    background: linear-gradient(to bottom, #eee, rgba(222,112,6,0.2), #de7006),url(../img/background.svg);
+}
+
+
+/*****************
+*specific to id
+******************/
+#aboutme{
+	float:left;
+	width:auto;
+}
+img#aboutme{
+	float:right;
+	max-width:10%;
 }

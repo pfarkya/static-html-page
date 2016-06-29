@@ -1,0 +1,62 @@
+body{
+	background:#e3e3e3;
+	font-family: sans-serif;
+}
+
+
+/*********************
+*FOR WRAPING UP ALL THE CONTENTS
+**********************/
+.wrap{
+	display: block;
+	margin: auto;
+	width: 600px;
+}
+
+/*********************
+*BLOCK QUOTE
+**********************/
+blockquote{
+	border: white solid 2px;
+	text-align: center;
+	padding: 5px;
+}
+
+.imgquote{
+	height: 20px;
+	width: 20px;
+	display: inline;
+}
+.imgquote180{
+	height: 20px;
+	width: 20px;
+	display: inline;
+	-ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+blockquote p{
+	display: inline;
+}
+blockquote p:before{
+	background-image: url(../img/quote_symbol.png);
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+}
+blockquote p:after{
+	background-image: url(../img/quote_symbol.png);
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+dt{
+	font-weight: bold;
+}

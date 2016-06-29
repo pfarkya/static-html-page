@@ -1,3 +1,2 @@
 # static-html-page
-# My First Gits Repository Project
-# changed
+# A Profile page of Prashant Farkya
