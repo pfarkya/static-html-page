@@ -22,19 +22,6 @@ blockquote{
 	padding: 5px;
 }
 
-.imgquote{
-	height: 20px;
-	width: 20px;
-	display: inline;
-}
-.imgquote180{
-	height: 20px;
-	width: 20px;
-	display: inline;
-	-ms-transform: rotate(180deg); /* IE 9 */
-    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
-    transform: rotate(180deg);
-}
 blockquote p{
 	display: inline;
 }

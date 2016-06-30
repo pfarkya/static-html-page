@@ -63,4 +63,5 @@ pageback{
 img#aboutme{
 	float:right;
 	max-width:10%;
+	border-radius: 20px;
 }
