@@ -15,14 +15,26 @@ body{
 /* --------------------------------------
    Layout
    -------------------------------------- */
-
+footer{
+   background:#333;
+   color: #eee;
+   font-size:12px;
+   padding:20px;
+}
 
 
 /* --------------------------------------
    Typography
    -------------------------------------- */
+img.thumbnail.pull-left{
+   margin-bottom:20px;
+   margin-right:20px;
+}
 
-
+ul.unstyled{
+   list-style:none;
+   padding:0px;
+}
 
 /* --------------------------------------
    Navbar
@@ -62,21 +74,48 @@ body{
 .feature img{
     margin-bottom: 10px;
 }
+
+textarea{
+   margin-bottom:10px;
+}
+
+.thumbnail{
+   position: relative;
+}
+
+.thumbnail .price{
+   position:absolute;
+   right:-10px;
+   top:-10px;
+}
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-	
+	.thumbnail .price{
+         font-size:12px;
+   }
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-	
+   .thumbnail .price{
+         font-size:18px;
+   }	   
+}
+
+@media (max-width:1200px){ 
+   .thumbnail .price{
+         font-size:20px;
+   }
+
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
-	
+	  .thumbnail .price{
+         font-size:22px;
+   }
 }
